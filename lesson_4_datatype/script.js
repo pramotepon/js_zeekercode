@@ -17,3 +17,16 @@ console.log(typeof d); // undefined
 // Null 
 let e = null;
 console.log(e); // null
+// Symbol
+const sym = Symbol("foo");
+console.log(typeof sym);; // "symbol"
+const symObj = Object(sym);
+console.log(typeof symObj); // "object"
+console.log(symObj.description); // foo
+
+// Object
+const myObj = {
+    name: "ZeekerCode",
+    learning: "JavaScript"
+}
+console.log(typeof myObj); // "object"

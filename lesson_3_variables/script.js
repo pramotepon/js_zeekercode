@@ -20,4 +20,4 @@ console.log(`Variable b new assign = ${b}`); // Error
 // Let Variable c is Empty
 let c;
 // Logging variable c
-console.log(`Variable c = ${c}`); //
+console.log(`Variable c = ${c}`); // undefine
