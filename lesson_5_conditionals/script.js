@@ -40,8 +40,6 @@ if(a == 19 || b == 10){
     // Else if b == 12 
 }else if(b == 12){
     console.log('B is true'); // B is true
-}else{
-    console.log('A And B is false'); // A And B is false
 }
 
 /* 
