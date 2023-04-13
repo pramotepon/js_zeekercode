@@ -1,9 +1,17 @@
+// function sayHello() {
+//     console.log('Hello Function');
+// }
+// sayHello();
 
+// function sum(a) {
+//     return a;
+// }
+// sum(12);
 // function sayHello(a, b = "No") {
 //     console.log(`${a} ${b}`);
 // }
 
-// sayHello("Hello", "World");
+// sayHello("Hello");
 // sayHello("Hello1", "World1");
 // sayHello("Hello2", "World2");
 
@@ -34,10 +42,6 @@
 //     console.log(`${a} ${b}`);
 // }
 
-const sayHello = () => {
-    return "Hello";
-
-    return "World";
-};
+const sayHello = () => "Hello World" ;
 
 console.log(sayHello());
