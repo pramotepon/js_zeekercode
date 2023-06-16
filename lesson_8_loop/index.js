@@ -5,7 +5,7 @@ const color = ["Red", "Blue", "Green", "Yellow", "Black", "White"];
 // color[0] color[1] color[2] color[3];
 /* 
   For loop
-*/ 
+*/
 // init = 0; 0 < 3; i + 1
 // 0; true; { log i } after 0 + 1;
 // 1; true; { log i } after 1 + 1;
@@ -65,9 +65,27 @@ const color = ["Red", "Blue", "Green", "Yellow", "Black", "White"];
 /* 
   Break
 */
-for(let i = 0; i < 10; i++){
-  if(i === 2){
-    break;
-  }
-  console.log(i);
+// for(let i = 0; i < 10; i++){
+//   if(i === 2){
+//     break;
+//   }
+//   console.log(i);
+// }
+
+// const myObj = { name: "Zeeker", type: "Code" };
+// console.log(myObj["name"]);
+// console.log(myObj["type"]);
+/* 
+  For in
+*/
+// for (const key in myObj) {
+//   console.log(myObj[key]);
+// }
+
+/* 
+  For of
+*/
+const myStr = "ZeekerCode"
+for (const iterator of myStr) {
+  console.log('Charactor: ', iterator);
 }
