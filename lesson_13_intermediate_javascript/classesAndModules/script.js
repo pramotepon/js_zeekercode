@@ -93,6 +93,24 @@
 */
 // Export
 let a = "Hello World"
+class MyFirstClass {
+    constructor(name, word) {
+        this.name = name;
+        this.word = word;
+    }
+    // Getter
+    get sayHello() {
+        return this.word;
+    }
+    // Setter
+    set finalWord(word) {
+        this.word += word;
+    }
 
-export { a };
+    static goodBye() {
+        return 'Bye bye'
+    }
+}
+
+export { a, MyFirstClass };
 // export default a;
