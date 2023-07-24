@@ -1,24 +1,24 @@
-// let text = "Hello World";
-// console.log(text);
+let text = "Hello World";
+console.log(text);
 
 // Convert to string
-// const toMyString = String("Hello World");
-// const numToMyString = String(8);
-// console.log(toMyString);
-// console.log(numToMyString);
+const toMyString = String("Hello World");
+const numToMyString = String(8);
+console.log(toMyString);
+console.log(numToMyString);
 
-// const myNumb = 8;
-// const myBool = true;
-// const myObj = { name: "Zeeker"};
-// const myNumbToString = myNumb.toString();
-// const myBoolToString = myBool.toString();
-// const myObjToString = myObj.toString();
-// console.log(typeof myNumb.toString());
-// console.log(typeof myBool.toString());
-// console.log(typeof myObj.toString());
-// console.log(typeof myNumbToString);
-// console.log(typeof myBoolToString);
-// console.log(myObjToString);
+const myNumb = 8;
+const myBool = true;
+const myObj = { name: "Zeeker"};
+const myNumbToString = myNumb.toString();
+const myBoolToString = myBool.toString();
+const myObjToString = myObj.toString();
+console.log(typeof myNumb.toString());
+console.log(typeof myBool.toString());
+console.log(typeof myObj.toString());
+console.log(typeof myNumbToString);
+console.log(typeof myBoolToString);
+console.log(myObjToString);
 
 // Character code
 // console.log(String.fromCharCode(72, 101, 108, 108, 111));
