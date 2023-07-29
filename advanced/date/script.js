@@ -1,10 +1,10 @@
-// const myDate = new Date();
+const myDate = new Date();
 // toString
 // toUTCString
 // toISOString
-// console.log(myDate.toString());
-// console.log(myDate.toUTCString());
-// console.log(myDate.toISOString());
+console.log(myDate.toString());
+console.log(myDate.toUTCString());
+console.log(myDate.toISOString());
 
 // const myDate = new Date(2023, 0);
 // console.log(myDate.toString());
@@ -158,7 +158,7 @@ const main = () => {
     setTimeDistance(getTimeDistance(currDate), getNewYear());
 }
 
-setInterval(main, 1000);
+// setInterval(main, 1000);
 
 // const updateTime = () => {
 //     // Get date now
